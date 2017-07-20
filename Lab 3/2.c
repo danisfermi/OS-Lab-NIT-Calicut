@@ -1,3 +1,4 @@
+// Implemention of cp command in Linux using open(), read(), write() system calls
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
