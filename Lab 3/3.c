@@ -21,7 +21,7 @@ int main(int argc, char **argv)
   struct stat sfile;
   struct dirent *myfile;
   DIR *dir;
-  char buff[512];
+  char buf[512];
   if (argc < 3) // Checking if we have sufficient arguments
   {
     printf("%s","ls: Not enough arguments.");
